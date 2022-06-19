@@ -9,7 +9,6 @@ import java.util.Queue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class No42587 {
-
     @Test
     public void testSolutionForCase1() {
         //given
