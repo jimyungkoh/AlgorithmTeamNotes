@@ -87,7 +87,7 @@ public class No42628 {
         return getResult(ascNumbers, descNumbers);
     }
 
-    private int[] getResult(PriorityQueue<Integer> ascNumbers, PriorityQueue<Integer> descNumbers) {
+    public int[] getResult(PriorityQueue<Integer> ascNumbers, PriorityQueue<Integer> descNumbers) {
         return ascNumbers.isEmpty() ?
                 new int[]{0, 0} : new int[]{descNumbers.poll(), ascNumbers.poll()};
     }
