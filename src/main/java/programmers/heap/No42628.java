@@ -38,7 +38,9 @@ public class No42628 {
     @Test
     public void testSolutionForCase3() {
         //given
-        String[] operations = new String[]{"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"};
+        String[] operations = new String[]{
+                "I 16", "I -5643", "D -1",
+                "D 1", "D 1", "I 123", "D -1"};
 
         //when
         int[] result = solution(operations);
@@ -51,7 +53,9 @@ public class No42628 {
     @Test
     public void testSolutionForCase4() {
         //given
-        String[] operations = new String[]{"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
+        String[] operations = new String[]{
+                "I -45", "I 653", "D 1", "I -642",
+                "I 45", "I 97", "D 1", "D -1", "I 333"};
 
         //when
         int[] result = solution(operations);
