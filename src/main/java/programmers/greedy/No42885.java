@@ -35,7 +35,7 @@ public class No42885 {
         assertEquals(answer, result);
     }
 
-    int solution(int[] people, int limit) {
+    public int solution(int[] people, int limit) {
         Arrays.sort(people);
 
         int lighterIdx = 0;
