@@ -8,13 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class No1845 {
     private int solution(int[] nums) {
-        HashSet<Integer> phoneketMons = new HashSet<>();
+        HashSet<Integer> phoneketMonTypes = new HashSet<>();
 
         for (int phoneketMon : nums) {
-            phoneketMons.add(phoneketMon);
+            phoneketMonTypes.add(phoneketMon);
         }
 
-        return Math.min(phoneketMons.size(), nums.length / 2);
+        return Math.min(phoneketMonTypes.size(), nums.length / 2);
     }
 
     @Test
